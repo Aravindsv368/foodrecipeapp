@@ -1,0 +1,27 @@
+.inputContainer {
+  margin: 15px auto;
+  text-align: center;
+  width: 400px;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  font-size: 15px;
+  padding: 7px;
+  border: none;
+  border-bottom: 2px solid rgb(165, 148, 148);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.input:focus {
+  outline: none;
+}
+
+.icon {
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 17px;
+}

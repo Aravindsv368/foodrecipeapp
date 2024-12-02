@@ -1,0 +1,30 @@
+.recipeContainer {
+  width: 300px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  overflow: hidden;
+  border-radius: 9px;
+}
+
+.itemImg {
+  object-fit: contain;
+}
+
+.recipeContent {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+  padding: 10px 5px;
+  font-weight: bold;
+}
+
+.recipeSearchBtn {
+  margin: 17px;
+  padding: 10px;
+  margin-left: 30%;
+  background-color: rgba(234, 234, 8, 0.719);
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 6px;
+}
